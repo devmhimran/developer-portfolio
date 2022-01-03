@@ -4,6 +4,18 @@ body{
     margin: ;
     font-family: 'Poppins', sans-serif;
 }
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#ff9c77, #ff664a);
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  
 section{
     padding: 60px 0;
     width: 1380px;
@@ -22,17 +34,20 @@ h1{
 .first-section-content{
     padding-right: 60px;
 }
-.first-section-content h1{
+.second-section-content{
+    padding-left: 60px;
+}
+.first-section-content h1,.second-section-content h1{
     font-size: 50px;
     color: #000;
 }
-.first-section-content h3{
+.first-section-content h3,.second-section-content h3{
     margin: 20px 0;
 }
-.first-section-content p{
+.first-section-content p,.second-section-content p{
     color: #696980;
 }
-.first-section-content span{
+.first-section-content span,.second-section-content span{
     color: #ffa500;
 }
 .btn{
