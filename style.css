@@ -233,7 +233,12 @@ p{
     display: flex;
     align-items: center;
     padding-left: 60px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 220px;
+    background-position: bottom right 30px;
 }
+
 .fifth-section-content h3{
     font-size: 36px;
     font-weight: 700;
@@ -261,4 +266,7 @@ p{
     font-family: 'Poppins', sans-serif;
     color: #3E3E3E;
     margin: 10px 0;
+}
+.contact-img{
+    width: 80%;
 }
