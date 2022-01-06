@@ -89,7 +89,7 @@ p{
 .hero-section-img{
     width: 550px;
 }
-.second-section-heading h1{
+.second-section-heading h1,.fifth-section h1{
     font-family: 'Poppins', sans-serif;
     font-size: 55px;
     color: #333333;
@@ -186,8 +186,79 @@ p{
     font-weight: 400;
     line-height: 32px;
     font-family: 'Poppins', sans-serif;
-    color: #333333;
+    color: #3E3E3E;
 }
 .third-section-btn{
     margin-top: 30px;
+}
+.fifth-section{
+    padding: 60px 0 0 0;
+}
+.fifth-section-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 20px;
+    }
+.fifth-section-left input, .fifth-section-left textarea{
+    display: block;
+    border: 1px solid #FF5959;
+    padding: 10px 20px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.fifth-section-left{
+    box-shadow: 5px 6px 14px -1px rgba(0,0,0,0.15);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.form-name, .form-email, .form-msg{
+    display: block;
+}
+.label{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+.fifth-section-right{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+.fifth-section-content h3{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.fifth-section-content h5{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+.fifth-section-content .profession{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+}
+.fifth-section-content p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    color: #3E3E3E;
+    margin: 10px 0;
 }
